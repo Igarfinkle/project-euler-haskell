@@ -1,0 +1,17 @@
+name: project-euler-haskell
+
+dependencies:
+  - base
+
+library:
+  source-dirs: src
+  ghc-options:
+    - -O2
+    - -Wall
+
+executables:
+  project-euler-haskell-exe:
+    main:                Main.hs
+    source-dirs:         app
+    dependencies:
+    - project-euler-haskell
