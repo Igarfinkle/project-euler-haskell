@@ -1,4 +1,5 @@
 cradle:
   stack:
     - path: "./src"
-    component: "project-euler-solutions:lib"
+      component: "project-euler-haskell:lib"
+
