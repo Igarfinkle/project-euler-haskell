@@ -3,3 +3,5 @@ cradle:
     - path: "./src"
       component: "project-euler-haskell:lib"
 
+    - path: "./app/Main.hs"
+      component: "project-euler-haskell:exe:project-euler-haskell-exe"

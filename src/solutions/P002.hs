@@ -6,6 +6,6 @@
 module Solutions.P002 where
 
 solve::Integer
-solve = 10
-    where 
+solve = sum (filter even (takeWhile (< 4000000) fibos))
+    where
         fibos = 1 : 2 : zipWith (+) fibos (tail fibos)
