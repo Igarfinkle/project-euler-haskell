@@ -12,6 +12,7 @@ library
   exposed-modules:
       Solutions.P001
       Solutions.P002
+      Solutions.P003
   other-modules:
       Paths_project_euler_haskell
   hs-source-dirs:
