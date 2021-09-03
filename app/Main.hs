@@ -5,6 +5,7 @@ import Control.Monad (unless)
 import Solutions.P001 (solve)
 import Solutions.P002 (solve)
 import Solutions.P003 (solve)
+import Solutions.P004 (solve)
 
 import Data.Maybe (isNothing, fromJust)
 
@@ -27,4 +28,5 @@ answer =  \case
     1 -> Just Solutions.P001.solve
     2 -> Just Solutions.P002.solve
     3 -> Just Solutions.P003.solve
+    4 -> Just Solutions.P004.solve
     _ -> Nothing
