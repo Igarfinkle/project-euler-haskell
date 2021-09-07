@@ -6,6 +6,7 @@ import Solutions.P001 (solve)
 import Solutions.P002 (solve)
 import Solutions.P003 (solve)
 import Solutions.P004 (solve)
+import Solutions.P005 (solve)
 
 import Data.Maybe (isNothing, fromJust)
 
@@ -29,4 +30,5 @@ answer =  \case
     2 -> Just Solutions.P002.solve
     3 -> Just Solutions.P003.solve
     4 -> Just Solutions.P004.solve
+    5 -> Just Solutions.P005.solve
     _ -> Nothing
