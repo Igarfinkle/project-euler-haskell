@@ -15,6 +15,7 @@ library
       Solutions.P003
       Solutions.P004
       Solutions.P005
+      Solutions.P006
   other-modules:
       Paths_project_euler_haskell
   hs-source-dirs:
